@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Shubham Pathak, a Front-End Developer specializing in AI/ML, Cyber Security, and Full-Stack Development">
+  <meta name="keywords" content="front-end developer, AI, ML, cyber security, full-stack, portfolio, web development">
+  <meta name="author" content="Shubham Pathak">
+  <meta property="og:title" content="Shubham Pathak | Front-End & AI/ML Developer">
+  <meta property="og:description" content="Portfolio of Shubham Pathak, a Front-End Developer specializing in AI/ML, Cyber Security, and Full-Stack Development">
+  <meta property="og:image" content="https://yourdomain.com/og-image.jpg">
+  <meta property="og:url" content="https://yourdomain.com">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@yourtwitterhandle">
+  <title>Shubham Pathak | Front-End Dev, AI/ML & Cyber Security</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <link rel="preload" href="https://threejs.org/examples/textures/planets/moon_1024.jpg" as="image">
+</head>
+<body style="scroll-behavior: smooth;">
+  <div class="preloader">
+    <div class="preloader-spinner"></div>
+  </div>
+  <div id="custom-cursor">
+    <div class="cursor-ring"></div>
+    <div class="cursor-dot"></div>
+  </div>
+  <header>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="logo">
+        <a href="#home" aria-label="Home"></a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#work">Work Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="mobile-nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="mobile-nav">
+        <ul class="mobile-nav-links">
+          <li><a href="#home" class="mobile-nav-link">Home</a></li>
+          <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+          <li><a href="#about" class="mobile-nav-link">About</a></li>
+          <li><a href="#education" class="mobile-nav-link">Education</a></li>
+          <li><a href="#work" class="mobile-nav-link">Work Experience</a></li>
+          <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+          <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="hero" role="banner">
+      <canvas id="earth-hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-content">
+        <img src="favicon.png" alt="Shubham Pathak" class="profile-image" loading="lazy">
+        <h1>Shubham Pathak</h1>
+        <p>Front-End Developer with a keen interest in AI/ML and Cyber Security</p>
+        <a href="https://drive.google.com/uc?export=download&id=1b6RjY9s0gy16JBxNwXQVuAbuXdnUJOdm" class="cta-button" role="button" target="_blank" rel="noopener noreferrer">Download Resume</a>
+      </div>
+    </section>
+    <section id="projects" class="projects" role="region" aria-label="Projects">
+      <div class="section-divider"></div>
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project" tabindex="0">
+          <h3>Throttle Talks</h3>
+          <p>A dynamic mobile app for car enthusiasts to discuss and share insights, built with a focus on user experience and performance.</p>
+          <p><strong>Tech Stack:</strong> Flutter, Dart, Firebase, Provider</p>
+          <a href="https://github.com/shubham-pathak1/throttle-talks" class="project-link" role="button" aria-label="GitHub Repository for Throttle Talks">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21 .69 .825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+            <span>View on GitHub</span>
+          </a>
+        </div>
+        <div class="project" tabindex="0">
+          <h3>Krishi Sangam</h3>
+          <p>A contract-based farming website connecting small and medium-scale farmers with companies.</p>
+          <p><strong>Tech Stack:</strong> HTML, CSS, Vanilla JS, Framer.js</p>
+          <a href="https://github.com/shubham-pathak1/krishi-sangam" class="project-link" role="button" aria-label="GitHub Repository for Krishi Sangam">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21 .69 .825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+            <span>View on GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about" role="region" aria-label="About">
+      <div class="section-divider"></div>
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>I’m a front-end developer who loves building websites and apps that are simple, functional, and easy to use. I’m also passionate about Linux, always trying new distros and customizing them to make my workflow better.</p>
+      </div>
+    </section>
+    <section id="education" class="education" role="region" aria-label="Education">
+      <div class="section-divider"></div>
+      <h2>Education</h2>
+      <div class="education-content">
+        <ul>
+          <li><strong>Diploma in Computer Engineering</strong>: Parul University, 2020-2023, CGPA: 7.44</li>
+          <li><strong>B.Tech in Computer Science and Engineering</strong>: Navrachana University, 2023-2026 (Ongoing)</li>
+        </ul>
+      </div>
+    </section>
+    <section id="work" class="work" role="region" aria-label="Work Experience">
+      <div class="section-divider"></div>
+      <h2>Work Experience</h2>
+      <div class="work-content">
+        <div class="work-item">
+          <h3>Front-End Developer Intern</h3>
+          <p><strong>Bolt IoT</strong>, Bangalore (Online Internship)</p>
+          <p><em>Duration: December 2022 - February 2023</em></p>
+          <p>Bolt IoT is a Bangalore-based company specializing in IoT solutions and platforms. As a Front-End Developer intern, I developed user-friendly interfaces for IoT dashboards, utilizing HTML, CSS, JavaScript, and React.js. I optimized load times by 20% and implemented responsive designs, earning recognition for my attention to detail and problem-solving skills.</p>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="skills" role="region" aria-label="Skills">
+      <div class="section-divider"></div>
+      <h2>Skills</h2>
+      <div class="skills-content">
+        <div class="skills-grid">
+          <div class="skill-item">
+            <img src="html.png" alt="HTML Icon" class="skill-icon" width="80" height="80" loading="lazy">
+            <span class="skill-label">HTML</span>
+          </div>
+          <div class="skill-item">
+            <img src="css.png" alt="CSS Icon" class="skill-icon" width="80" height="80" loading="lazy">
+            <span class="skill-label">CSS</span>
+          </div>
+          <div class="skill-item">
+            <img src="javascript.png" alt="JavaScript Icon" class="skill-icon" width="80" height="80" loading="lazy">
+            <span class="skill-label">JavaScript</span>
+          </div>
+          <div class="skill-item">
+            <img src="react.png" alt="React.js Icon" class="skill-icon" width="80" height="80" loading="lazy">
+            <span class="skill-label">React.js</span>
+          </div>
+          <div class="skill-item">
+            <img src="mongodb.png" alt="MongoDB Icon" class="skill-icon" width="80" height="80" loading="lazy">
+            <span class="skill-label">MongoDB</span>
+          </div>
+          <div class="skill-item">
+            <img src="python.png" alt="Python Icon" class="skill-icon" width="80" height="80" loading="lazy">
+            <span class="skill-label">Python</span>
+          </div>
+          <div class="skill-item">
+            <img src="linux.png" alt="Linux Icon" class="skill-icon" width="80" height="80" loading="lazy">
+            <span class="skill-label">Linux</span>
+          </div>
+          <div class="skill-item">
+            <img src="threejs.png" alt="Three.js Icon" class="skill-icon" width="80" height="80" loading="lazy">
+            <span class="skill-label">Three.js</span>
+          </div>
+          <div class="skill-item">
+            <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git Icon" class="skill-icon" width="80" height="80" loading="lazy">
+            <span class="skill-label">Git</span>
+          </div>
+          <div class="skill-item">
+            <img src="tailwind.png" alt="Tailwind CSS Icon" class="skill-icon" width="80" height="80" loading="lazy">
+            <span class="skill-label">Tailwind CSS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact" role="region" aria-label="Contact">
+      <div class="section-divider"></div>
+      <h2>Get in Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Connect with Me</h3>
+          <p>I'm based in Vadodara, Gujarat, India, and I'm excited to collaborate on innovative projects. Reach out via email, phone, or connect with me on social platforms.</p>
+          <ul class="contact-details">
+            <li>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+              </svg>
+              Vadodara, Gujarat, India
+            </li>
+            <li>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+              </svg>
+              <a href="mailto:shubhamxkcd@gmail.com">shubham@example.com</a>
+            </li>
+            <li>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03 .74-.24 1.02l-2.2 2.2z"/>
+              </svg>
+              <a href="tel:+919999999999">+91 9099091879</a>
+            </li>
+          </ul>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/shubham-pathak-05366b272/" aria-label="LinkedIn Profile" target="_blank" rel="noopener noreferrer">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+            </a>
+            <a href="https://github.com/shubham-pathak1" aria-label="GitHub Profile" target="_blank" rel="noopener noreferrer">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21 .69 .825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form-container">
+          <h3>Send a Message</h3>
+          <form id="contact-form" class="contact-form" action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your Name" required aria-describedby="name-desc">
+              <span id="name-desc" class="sr-only">Please enter your full name.</span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="_replyto" placeholder="Your Email" required aria-describedby="email-desc">
+              <span id="email-desc" class="sr-only">Please enter a valid email address.</span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Your Message" required aria-describedby="message-desc"></textarea>
+              <span id="message-desc" class="sr-only">Please enter your message or inquiry.</span>
+            </div>
+            <button type="submit" class="cta-button" role="button">Send Message</button>
+            <div class="form-status" aria-hidden="true"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer role="contentinfo">
+    <p>© 2025 Shubham Pathak. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/shubham-pathak-05366b272/" aria-label="LinkedIn Profile" target="_blank" rel="noopener noreferrer">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+      </a>
+      <a href="https://github.com/shubham-pathak1" aria-label="GitHub Profile" target="_blank" rel="noopener noreferrer">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21 .69 .825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+        </svg>
+      </a>
+    </div>
+  </footer>
+  <div id="contact-popup" class="contact-popup" role="dialog" aria-labelledby="popup-title" aria-hidden="true">
+    <div class="popup-content">
+      <button class="popup-close" aria-label="Close pop-up">×</button>
+      <h3 id="popup-title">Contact Me</h3>
+      <p>Please reach out to me directly via Gmail or LinkedIn for any inquiries or collaboration opportunities.</p>
+      <div class="popup-buttons">
+        <a href="mailto:shubhamxkcd@gmail.com" class="popup-button" target="_blank" rel="noopener noreferrer">Contact via Gmail</a>
+        <a href="https://www.linkedin.com/in/shubham-pathak-05366b272/" class="popup-button" target="_blank" rel="noopener noreferrer">Contact via LinkedIn</a>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
