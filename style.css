@@ -923,6 +923,22 @@ footer {
     transform: translateY(-3px);
 }
 
+/* Disable custom cursor on touch devices */
+@media (pointer: coarse) {
+    body {
+        cursor: default;
+    }
+    #custom-cursor,
+    .cursor-ring,
+    .cursor-dot,
+    .cursor-trail {
+        display: none;
+    }
+    .mobile-nav-toggle {
+        cursor: pointer; /* Ensure mobile nav toggle uses default cursor */
+    }
+}
+
 @media (max-width: 1024px) {
     .navbar {
         padding: var(--spacing-unit) calc(var(--spacing-unit));
